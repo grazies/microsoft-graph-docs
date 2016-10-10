@@ -16,7 +16,7 @@ You can use Microsoft Graph to:
 
 ##Common Microsoft Graph queries
 
-Microsoft Graph exposes two endpoints: /v1.0 and /beta. The /v1.0 endpoint includes the resources that you can access in your production app. The [/beta](../../api-reference/beta/beta-overview.md) endpoint includes APIs that are currently in preview. The following table lists some common queries that you can use to access the Microsoft Graph API.
+Microsoft Graph exposes two endpoints: /v1.0 and /beta. The /v1.0 endpoint includes the resources that you can access in your production app. The [/beta](../../docs/api-reference/beta/beta-overview.md) endpoint includes APIs that are currently in preview. The following table lists some common queries that you can use to access the Microsoft Graph API.
 
 | **Operation**	| **Service endpoint** |
 |:--------------------------|:----------------------------------------|
