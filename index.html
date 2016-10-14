@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Microsoft-graph-docs by grazies</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Microsoft-graph-docs</h1>
+      <h2 class="project-tagline">Documentation for the Microsoft Graph REST API</h2>
+      <a href="https://github.com/grazies/microsoft-graph-docs" class="btn">View on GitHub</a>
+      <a href="https://github.com/grazies/microsoft-graph-docs/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/grazies/microsoft-graph-docs/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="contribute-to-microsoft-graph-documentation" class="anchor" href="#contribute-to-microsoft-graph-documentation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contribute to Microsoft Graph documentation</h1>
+
+<p>Thank you for your interest in Microsoft Graph documentation! </p>
+
+<ul>
+<li><a href="#ways-to-contribute">Ways to contribute</a></li>
+<li><a href="#before-we-can-accept-your-pull-request">Before we can accept your pull request</a></li>
+<li><a href="#repository-organization">Repository organization</a></li>
+<li><a href="#use-github-git-and-this-repository">Use GitHub, Git, and this repository</a></li>
+<li><a href="#how-to-use-markdown-to-format-your-topic">How to use Markdown to format your topic</a></li>
+<li><a href="#standard-markdown">Standard Markdown</a></li>
+<li><a href="#more-resources">More resources</a></li>
+</ul>
+
+<h2>
+<a id="ways-to-contribute" class="anchor" href="#ways-to-contribute" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Ways to contribute</h2>
+
+<p>You can contribute to <a href="http://graph.microsoft.io/docs">Microsoft Graph documentation</a> in these ways:</p>
+
+<ul>
+<li>Contribute to articles via the <a href="https://github.com/microsoftgraph/microsoft-graph-docs">public Microsoft Graph developer docs repo</a>
+</li>
+<li>Report documentation bugs via <a href="https://github.com/microsoftgraph/microsoft-graph-docs/issues">GitHub Issues</a>
+</li>
+<li>Add documentation requests to the <a href="http://officespdev.uservoice.com">Office Developer Platform UserVoice</a>
+</li>
+</ul>
+
+<h2>
+<a id="before-we-can-accept-your-pull-request" class="anchor" href="#before-we-can-accept-your-pull-request" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Before we can accept your pull request</h2>
+
+<h3>
+<a id="minor-corrections" class="anchor" href="#minor-corrections" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Minor corrections</h3>
+
+<p>Minor corrections or clarifications you submit for documentation and code examples in this repository don't require a Contribution License Agreement (CLA). Submissions are taken in the form of pull requests. We'll do our best to review pull requests within 10 business days.</p>
+
+<h3>
+<a id="larger-submissions" class="anchor" href="#larger-submissions" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Larger submissions</h3>
+
+<p>If you submit new or significant changes to documentation and code examples, you need to send us a signed Contribution License Agreement (CLA) before we can accept your pull request if you are in one of these groups:</p>
+
+<ul>
+<li>Members of the Microsoft Open Technologies group</li>
+<li>Contributors who don't work for Microsoft</li>
+</ul>
+
+<p>As a community member, <strong>you must sign the Contribution License Agreement (CLA) before you can contribute large submissions to this project</strong>, but you need to complete and submit the documentation only once. Please carefully review the document; you may also need to have your employer sign the document.</p>
+
+<p>Signing the Contribution License Agreement (CLA) does not grant you rights to commit to the main repository, but it does mean that the Office Developer and Office Developer Content Publishing teams will be able to review and consider your contributions and you will get credit if we do.</p>
+
+<p>You can download the Contribution License Agreement (CLA) <a href="https://github.com/microsoftgraph/microsoft-graph-docs/raw/master/Contribution%20License%20Agreement.pdf">here</a>. Please fill out the form and email it to <a href="mailto:officedev@microsoft.com">officedev@microsoft.com</a>.</p>
+
+<p>Once we receive and process your CLA, we'll do our best to review your pull requests within 10 business days.</p>
+
+<h2>
+<a id="repository-organization" class="anchor" href="#repository-organization" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Repository organization</h2>
+
+<p>The content in the microsoft-graph-docs repository is grouped first by article language, then by topic. The README.md file at the root of each topic directory specifies the structure of the articles within the topic.</p>
+
+<p>Articles within each topic are named by MSDN GUID, not by title. This is a side effect of our document management process and can't be changed at this time. We highly recommend using the table of contents within each topic directory to navigate to the files you wish to view or edit. For more information, please see <a href="https://github.com/microsoftgraph/microsoft-graph-docs/blob/master/README.md">README.md</a>.</p>
+
+<h2>
+<a id="use-github-git-and-this-repository" class="anchor" href="#use-github-git-and-this-repository" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Use GitHub, Git, and this repository</h2>
+
+<p><strong>Note:</strong> Most of the information in this section can be found in <a href="http://help.github.com/">GitHub Help</a> articles.  If you're familiar with Git and GitHub, skip to the <strong>Contribute and edit content</strong> section for the particulars of the code/content flow of this repository.</p>
+
+<h3>
+<a id="setting-up-your-fork-of-the-repository" class="anchor" href="#setting-up-your-fork-of-the-repository" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Setting up your fork of the repository</h3>
+
+<ol>
+<li> Set up a GitHub account so you can contribute to this project. If you haven't done this already, please go to <a href="http://github.com">GitHub Home</a> and do it now.</li>
+<li> Set up your machine with Git. Follow the instructions in the <a href="http://help.github.com/win-set-up-git/">Setting up Git Tutorial</a>.</li>
+<li> Create your own fork of this repository. To do this, at the top of the page,  click the <strong>Fork</strong> button.</li>
+<li>
+<p>Copy your fork to your local machine. To do this, go open GitBash. At the command prompt enter:</p>
+
+<pre><code>git clone https://github.com/&lt;your user name&gt;/microsoft-graph-docs.git
+</code></pre>
+
+<p>Next, create a reference to the root repository by entering these commands:</p>
+
+<pre><code>cd microsoft-graph-docs
+git remote add upstream https://github.com/microsoftgraph/microsoft-graph-docs.git
+git fetch upstream
+</code></pre>
+</li>
+</ol>
+
+<p>Congratulations! You've now set up your repository. You won't need to repeat these steps again.</p>
+
+<h3>
+<a id="contribute-and-edit-content" class="anchor" href="#contribute-and-edit-content" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Contribute and edit content</h3>
+
+<p>To make the contribution process as seamless as possible for you, follow this procedure.</p>
+
+<ol>
+<li>Create a new branch.</li>
+<li>Add new content or edit existing content.</li>
+<li>Submit a pull request to the main repository.</li>
+<li>Delete the branch.</li>
+</ol>
+
+<p>Limit each branch to a single concept/article to streamline the workflow and reduce the chance of merge conflicts. The following types of contribution are appropriate for a new branch:</p>
+
+<ul>
+<li>A new article (and associated images)</li>
+<li>Spelling and grammar edits on an article</li>
+<li>Applying a single formatting change across a large set of articles (e.g., applying a new copyright footer).</li>
+</ul>
+
+<h4>
+<a id="create-a-new-branch" class="anchor" href="#create-a-new-branch" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Create a new branch</h4>
+
+<ol>
+<li> Open GitBash.</li>
+<li> Type <code>git pull upstream master:&lt;new branch name&gt;</code> at the prompt. This creates a new branch locally that's copied from the latest microsoftgraph master branch. <strong>Note:</strong> For internal contributors, replace <code>master</code> in the command with the branch for the publishing date you're targeting.</li>
+<li> Type <code>git push origin &lt;new branch name&gt;</code> at the prompt. This will alert GitHub to the new branch. You should now see the new branch in your fork of the repository on GitHub.</li>
+<li> Type <code>git checkout &lt;new branch name&gt;</code> to switch to your new branch.</li>
+</ol>
+
+<h4>
+<a id="add-new-content-or-edit-existing-content" class="anchor" href="#add-new-content-or-edit-existing-content" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Add new content or edit existing content</h4>
+
+<p>You navigate to the repository on your local machine by using File Explorer. The repository files are in <code>C:\Users\&lt;yourusername&gt;\microsoft-graph-docs</code>.</p>
+
+<p>To edit files, open them in an editor of your choice and modify them. To create a new file, use the editor of your choice and save the new file in the appropriate location in your local copy of the repository. While working, be sure to save your work frequently.</p>
+
+<p>The files in <code>C:\Users\&lt;yourusername&gt;\microsoft-graph-docs</code> are a working copy of the new branch that you created in your local repository. Changing anything in this folder doesn't affect the local repository until you commit a change. To commit a change to the local repository, type the following commands in GitBash:</p>
+
+<pre><code>git add .
+git commit -v -a -m "&lt;Describe the changes made in this commit&gt;"
+</code></pre>
+
+<p>The <code>add</code> command adds your changes to a staging area in preparation for committing them to the repository. The period after the <code>add</code> command specifies that you want to stage all of the files that you added or modified, checking subfolders recursively. (If you don't want to commit all of the changes, you can add specific files. You can also undo a commit. For help, type <code>git add -help</code> or <code>git status</code>.)</p>
+
+<p>The <code>commit</code> command applies the staged changes to the repository. <code>-m</code> means you are providing the commit comment in the command line. If you aren't targeting a specific date for publishing, you can say "for publishing ASAP".  The -v  and -a switches can be omitted. The -v switch is for verbose output from the command, and -a does what you already did with the add command.) </p>
+
+<p>You can commit multiple times while you are doing your work, or you can wait and commit only once when you're done.</p>
+
+<h4>
+<a id="submit-a-pull-request-to-the-main-repository" class="anchor" href="#submit-a-pull-request-to-the-main-repository" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Submit a pull request to the main repository</h4>
+
+<p>When you're finished with your work and are ready to have it merged into the central repository, follow these steps.</p>
+
+<ol>
+<li> In GitBash, type <code>git push origin &lt;new branch name&gt;</code> at the command prompt. In your local repository, <code>origin</code> refers to your GitHub repository that you cloned the local repository from. This command pushes the current state of your new branch, including all commits made in the previous steps, to your GitHub fork.</li>
+<li> On the GitHub site, navigate in your fork to the new branch.</li>
+<li> Click the <strong>Pull Request</strong> button at the top of the page.</li>
+<li> Ensure that the Base branch is <code>microsoftgraph/microsoft-graph-docs@master</code> and the Head branch is <code>&lt;your username&gt;/microsoft-graph-docs@&lt;branch name&gt;</code>.</li>
+<li> Click the <strong>Update Commit Range</strong> button.</li>
+<li> Give your pull request a Title, and describe all the changes you're making. If your bug fixes a UserVoice item or GitHub issue, be sure to reference that issue in the description.</li>
+<li> Submit the pull request.</li>
+</ol>
+
+<p>One of the site administrators will now process your pull request. Your pull request will surface on the microsoftgraph/microsoft-graph-docs site under Issues. When the pull request is accepted, the issue will be resolved.</p>
+
+<h4>
+<a id="create-a-new-branch-after-merge" class="anchor" href="#create-a-new-branch-after-merge" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Create a new branch after merge</h4>
+
+<p>After a branch is successfully merged (i.e., your pull request is accepted), don't continue working in the local branch that was successfully merged upstream. This can lead to merge conflicts if you submit another pull request. Instead, if you want to do another update, create a new local branch from the successfully merged upstream branch.</p>
+
+<p>For example, suppose your local branch X was successfully merged into the microsoftgraph/microsoft-graph-docs master branch and you want to make additional updates to the content that was merged. Create a new local branch, X2, from the microsoftgraph/microsoft-graph-docs master branch. To do this, open GitBash and execute the following commands:</p>
+
+<pre><code>cd microsoft-graph-docs
+git pull upstream master:X2
+git push origin X2
+</code></pre>
+
+<p>You now have local copies (in a new local branch) of the work that you submitted in branch X. The X2 branch also contains all the work other writers have merged, so if your work depends on others' work (e.g., shared images), it is available in the new branch. You can verify that your previous work (and others' work) is in the branch by checking out the new branch...</p>
+
+<pre><code>git checkout X2
+</code></pre>
+
+<p>...and verifying the content. (The <code>checkout</code> command updates the files in <code>C:\Users\&lt;yourusername&gt;\microsoft-graph-docs</code> to the current state of the X2 branch.) Once you check out the new branch, you can make updates to the content and commit them as usual. However, to avoid working in the merged branch (X) by mistake, it's best to delete it (see the following <strong>Delete a branch</strong> section).</p>
+
+<h4>
+<a id="delete-a-branch" class="anchor" href="#delete-a-branch" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Delete a branch</h4>
+
+<p>Once your changes are successfully merged into the central repository, you can delete the branch you used because you no longer need it.  Any additional work requires a new branch.  </p>
+
+<p>To delete your branch follow these steps:</p>
+
+<ol>
+<li> In GitBash type <code>git checkout master</code> at the command prompt.  This ensures that you aren't in the branch to be deleted (which isn't allowed).</li>
+<li> Next, type <code>git branch -d &lt;branch name&gt;</code> at the command prompt.  This deletes the branch on your local machine only if it has been successfully merged to the upstream repository. (You can override this behavior with the <code>–D</code> flag, but first be sure you want to do this.)</li>
+<li> Finally, type <code>git push origin :&lt;branch name&gt;</code> at the command prompt (a space before the colon and no space after it).  This will delete the branch on your github fork.<br>
+</li>
+</ol>
+
+<p>Congratulations, you have successfully contributed to the project.</p>
+
+<h2>
+<a id="how-to-use-markdown-to-format-your-topic" class="anchor" href="#how-to-use-markdown-to-format-your-topic" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>How to use Markdown to format your topic</h2>
+
+<h3>
+<a id="article-template" class="anchor" href="#article-template" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Article template</h3>
+
+<p>The <a href="/articles/0-markdown-template-for-new-articles.md">markdown template</a> contains the basic Markdown for a topic that includes a table of contents, sections with subheadings, links to other Office developer topics, links to other sites, bold text, italic text, numbered and bulleted lists, code snippets, and images. </p>
+
+<h3>
+<a id="standard-markdown" class="anchor" href="#standard-markdown" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Standard Markdown</h3>
+
+<p>All of the articles in this repository use Markdown.  While a complete introduction (and listing of all the syntax) can be found at <a href="http://daringfireball.net/projects/markdown/">Markdown Home</a>, we'll cover the basics you'll need.</p>
+
+<p>If you're looking for a good editor, try <a href="http://markdownpad.com/">Markdown Pad</a>.</p>
+
+<h3>
+<a id="markdown-basics" class="anchor" href="#markdown-basics" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Markdown basics</h3>
+
+<p>This is a list of the most common markdown syntax:</p>
+
+<ul>
+<li>  <strong>Line breaks vs. paragraphs:</strong> In Markdown there is no HTML <code>&lt;br /&gt;</code> element. Instead, a new paragraph is designated by an empty line between two blocks of text.</li>
+<li>  <strong>Italics:</strong> The HTML <code>&lt;i&gt;some text&lt;/i&gt;</code> is written <code>*some text*</code>
+</li>
+<li>  <strong>Bold:</strong> The HTML <code>&lt;strong&gt;some text&lt;/strong&gt;</code> element is written <code>**some text**</code>
+</li>
+<li>  <strong>Headings:</strong> HTML headings are designated by an number of <code>#</code> characters at the start of the line.  The number of <code>#</code> characters corresponds to the hierarchical level of the heading (for example, <code>#</code> = h1, <code>##</code> = h2, and <code>###</code> = h3).</li>
+<li>
+<p><strong>Numbered lists:</strong> To create a numbered (ordered) list, start the line with <code>1.</code>. If you want multiple elements within a single list element, format your list as follows:</p>
+
+<pre><code>1.  Notice that this line is tabbed over after the '.'
+
+    Now notice that there is a line break between the two paragraphs in the list element, and that the indentation here matches the indentation of the line above.
+</code></pre>
+</li>
+<li><p><strong>Bulleted lists:</strong> Bulleted (unordered) lists are almost identical to ordered lists except that the <code>1.</code> is replaced with either <code>*</code>, <code>-</code>, or <code>+</code>.  Multiple element lists work the same way as they do with ordered lists.</p></li>
+<li>
+<p><strong>Links:</strong> The base syntax for a link is <code>[visible link text](link url)</code>.</p>
+
+<p>Links can also have references, which is discussed in the <strong>Link and Image References</strong> section below.</p>
+</li>
+<li>
+<p><strong>Images:</strong> The base syntax for an image is <code>![alt text for the image](image url)</code>.</p>
+
+<p>Images can also have references, which is discussed in the <strong>Link and Image References</strong> section below.</p>
+</li>
+<li><p><strong>In-line HTML:</strong> Markdown allows you to include HTML inline:  <code>&lt;i&gt;italic&lt;/i&gt;</code> is correctly rendered by Markdown as <i>italic</i>.</p></li>
+</ul>
+
+<h3>
+<a id="link-and-image-references" class="anchor" href="#link-and-image-references" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Link and image references</h3>
+
+<p>Markdown has a really nice feature that lets a user insert a reference instead of a URL for images and links. Here is the syntax for using this feature:</p>
+
+<pre><code>The image below is from [Google][googleweb]
+
+![Google's logo][logo]
+
+[googleweb]: http://www.google.com
+[logo]: https://www.google.com/images/srpr/logo3w.png
+</code></pre>
+
+<p>By using references grouped at the bottom of your file, you can easily find, edit, and reuse link and image URLs. </p>
+
+<h2>
+<a id="more-resources" class="anchor" href="#more-resources" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>More resources</h2>
+
+<ul>
+<li>For more information about Markdown, go to <a href="http://daringfireball.net/projects/markdown/">their site</a>.</li>
+<li>For more information about using Git and GitHub, first check out the <a href="http://help.github.com/">GitHub Help section</a> and if necessary contact the site administrators.</li>
+</ul>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/grazies/microsoft-graph-docs">Microsoft-graph-docs</a> is maintained by <a href="https://github.com/grazies">grazies</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
